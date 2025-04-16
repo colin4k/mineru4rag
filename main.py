@@ -67,11 +67,11 @@ def add_chunks_to_ragflow(content_list, api_key, base_url, knowledge_base_name, 
 
 def main():
     # 配置参数
-    pdf_file_name = "有为：汉武帝的五十四年 (戴波).pdf"
+    pdf_file_name = "宋代宰相制度研究.pdf"
     api_key = "ragflow-I4Nzg5ODcwMTVjODExZjBhODI3MDI0Mm"
     base_url = "http://amd:2081"
-    knowledge_base_name = "demo"
-    doc_id = "5b2a3b3c15c911f0a3180242ac150006"
+    knowledge_base_name = "宋代史"
+    doc_id = "23afdbf81a6f11f0b0c90242ac150006"
     
     # 处理PDF并获取内容列表
     content_list_content = process_pdf(pdf_file_name)
