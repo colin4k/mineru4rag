@@ -1,0 +1,10 @@
+ragflow-sdk
+magic-pdf
+opencv-python
+ultralytics
+doclayout_yolo
+rapid_table
+ftfy
+shapely
+pyclipper
+omegaconf
